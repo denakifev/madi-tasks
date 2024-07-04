@@ -11,7 +11,7 @@ n = int(input())
 while (n < 3): 
     n = int(input("Invalid parameter!\n"))
 d = (b - a) / (n - 1)
-with open("output.txt", "w") as f:
+with open("task1/output.txt", "w") as f:
     while a < b:
         try: 
             res = func(a)
